@@ -14,8 +14,8 @@ class Solution:
             self.stack2.append(self.stack2[-1])
     def pop(self):
         # write code here
-        self.stack1.pop();
-        self.stack2.pop();
+        self.stack1.pop()
+        self.stack2.pop()
     def top(self):
         # write code here
         return self.stack1[-1]
